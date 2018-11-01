@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description>期限切れのTASKを閉じる。</description>
+        <label_cache>[{"name":"8ea82f88-aeaa-48e4-9277-828b9228cbc5.table_name","label":"4.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table"},{"name":"8ea82f88-aeaa-48e4-9277-828b9228cbc5.record","label":"4.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record"},{"name":"8ea82f88-aeaa-48e4-9277-828b9228cbc5.record.number","label":"4.1➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"3f274441-621c-40d9-958b-8b0e79c466b4.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record"},{"name":"f7c77d18-a8a5-4761-bf0e-49bce60f1dfb.table_name","label":"5➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table"},{"name":"f7c77d18-a8a5-4761-bf0e-49bce60f1dfb.record","label":"5➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record"},{"name":"e98c7314-1897-4967-a859-2cc4c40fd337.Count","label":"3➛Count","reference_display":"Count"},{"name":"e98c7314-1897-4967-a859-2cc4c40fd337.Table","label":"3➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table"},{"name":"e98c7314-1897-4967-a859-2cc4c40fd337.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Records"},{"name":"f143468d-fdb8-4b26-be24-0bae29ca23ad.property_value","label":"1➛property_value","reference_display":"property_value"},{"name":"cef387d1-8133-4d7a-b6cb-f3c9aa559a88.calculated_date","label":"2➛calculated_date","type":"glide_date","base_type":"glide_date"},{"name":"5c84c3c5-ffb1-4c4e-87dc-ae1d1c89a7a2.Record","label":"3➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"f7c77d18-a8a5-4761-bf0e-49bce60f1dfb.record.number","label":"5➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"}]</label_cache>
+        <latest_snapshot/>
+        <name>NeedIt Overdue Flow</name>
+        <remote_trigger_id/>
+        <show_draft_actions>false</show_draft_actions>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-01 01:16:33</sys_created_on>
+        <sys_id>881eb53cdb292300310bdde7489619df</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>NeedIt Overdue Flow</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_881eb53cdb292300310bdde7489619df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-01 01:34:52</sys_updated_on>
+    </sys_hub_flow>
+</record_update>

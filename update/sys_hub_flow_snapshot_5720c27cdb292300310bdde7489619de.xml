@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>期限切れのTASKを閉じる。</description>
+        <label_cache>[{"name":"f7c77d18-a8a5-4761-bf0e-49bce60f1dfb.record.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"5c84c3c5-ffb1-4c4e-87dc-ae1d1c89a7a2.Record","label":"3➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"cef387d1-8133-4d7a-b6cb-f3c9aa559a88.calculated_date","label":"2➛calculated_date","type":"glide_date","base_type":"glide_date"},{"name":"f143468d-fdb8-4b26-be24-0bae29ca23ad.property_value","label":"1➛property_value","type":"string","base_type":"string"}]</label_cache>
+        <name>NeedIt Overdue Flow</name>
+        <parent_flow display_value="NeedIt Overdue Flow">881eb53cdb292300310bdde7489619df</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-01 01:25:47</sys_created_on>
+        <sys_id>5720c27cdb292300310bdde7489619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Overdue Flow</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_5720c27cdb292300310bdde7489619de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-01 01:25:47</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
